@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="home.css" />
+  <title>Mood Meal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">🍽️  Mood Meal</h1>
+      <nav>
+        <ul class="nav-list">
+          <li>Home</li>
+          <li>About</li>
+          <li>Mood</li>
+          <li>Diet</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-section">
+      <h2>Welcome To Our Recipe Collection</h2>
+      <p>Feel your mood right</p>
+    </div>
+  </section>
+
+  <section class="filters">
+    <div class="filter-box">
+      <div class="filter-group">
+        <label for="meal"> Meal Type</label>
+        <select id="meal">
+          <option>Breakfast</option>
+          <option>Lunch</option>
+          <option>Dinner</option>
+          <option>Snacks</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="diet"> Diet</label>
+        <select id="diet">
+          <option>Any</option>
+          <option>Vegetarian</option>
+          <option>Non-Vegetarian</option>
+          <option>Vegan</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="occasion"> Occasion</label>
+        <select id="occasion">
+          <option>Birthday</option>
+          <option>Anniversary</option>
+          <option>Alone Time</option>
+          <option>Friends Gathering</option>
+          <option>Festivals</option>
+        </select>
+      </div>
+    </div>
+
+    <form action="#" class="search">
+      <button type="submit">Get Meal Suggestions</button>
+    </form>
+  </section>
+
+  <section class="divider-line">
+    <hr />
+  </section>
+
+  <section class="recipes">
+    <h2 class="recipes-heading">Trending Food</h2>
+    <div class="rec">
+      <div class="rec-cards">
+        <img src="images/tacos.jpg" alt="Tacos" />
+        <h2>Tacos</h2>
+        <p>Spicy and crunchy tacos with a variety of fillings. Perfect for a lively mood!</p>
+        <a href="#">View Recipe</a>
+      </div>
+      <div class="rec-cards">
+        <img src="images/tamarindnoodles.jpg" alt="Tamarind Noodles" />
+        <h2>Tamarind Noodles</h2>
+        <p>Savory tamarind noodles bursting with tangy flavors. Great for an energetic vibe.</p>
+        <a href="#">View Recipe</a>
+      </div>
+      <div class="rec-cards">
+        <img src="images/pennypasta.jpg" alt="Penne Pasta" />
+        <h2>Penne Pasta</h2>
+        <p>Classic penne pasta in creamy sauce. Comfort food for when you need a hug in a bowl.</p>
+        <a href="#">View Recipe</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="streak-section">
+    <div class="streak-box">
+      <h2>Daily Streak</h2>
+      <p>Maintain your daily streak and earn exciting food rewards!</p>
+      <div class="streak-days">
+        <div class="day active">Day 1</div>
+        <div class="day">Day 2</div>
+        <div class="day">Day 3</div>
+        <div class="day">Day 4</div>
+        <div class="day">Day 5</div>
+        <div class="day">Day 6</div>
+        <div class="day">Day 7</div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="padding-left: 7cm; padding-right: 7cm;">
+    <div class="footer-container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px;">
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Suggestions</li>
+          <li>Restaurants</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Support</h3>
+        <ul>
+          <li>FAQs</li>
+          <li>Contact Us</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Newsletter</h3>
+        <p>Subscribe for food trends and special offers!</p>
+        <input type="email" placeholder="Your email" />
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
